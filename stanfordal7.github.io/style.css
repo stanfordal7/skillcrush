@@ -1,0 +1,20 @@
+/** Add a comment at the beginning of your CSS styles with your name **/
+/**Angela's Style**/
+body {
+	background-color: DarkSlateGray;
+	color: white;
+	text-decoration: none;
+	font-family:'Open Sans', sans-serif;
+    margin-left: 30px;  
+    margin-right: 30px;
+}
+
+h1 {
+    font-family: impact, sans-serif;
+    color: PowderBlue;
+}
+
+a {
+    color: CadetBlue;
+    font-family: "trebuchet ms", sans-serif;
+}
