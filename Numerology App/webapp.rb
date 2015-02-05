@@ -39,7 +39,8 @@ def get_message(birth_path_num)
     end
 end
  
- 
+
+
 puts "What is your birthdate? Please write it like this: MMDDYYYY"
 birthdate = gets
  
@@ -52,9 +53,15 @@ puts message
 get '/:birthdate' do
 	birthdate = params[:birthdate]
 	birth_path_num = get_birth_path_num(birthdate)
-	message = get_message(birth_path_num)
-	"#{message}"
-end
+	@message = get_message(birth_path_num)
+	"#{@message}"
+    
+    erb :home
+end    
+    
+
+
+
 
 
 
