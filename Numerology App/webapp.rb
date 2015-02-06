@@ -58,8 +58,10 @@ get '/:birthdate' do
     
     erb :home
 end    
-    
 
+get '/' do
+  erb :index
+end
 
 
 
